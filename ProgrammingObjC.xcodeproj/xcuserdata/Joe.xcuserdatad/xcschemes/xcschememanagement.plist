@@ -29,9 +29,19 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Ch8Prog8.5.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D8591D821C28065600DEA5AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D8B1CB5D1C086A5000083482</key>
 		<dict>
 			<key>primary</key>

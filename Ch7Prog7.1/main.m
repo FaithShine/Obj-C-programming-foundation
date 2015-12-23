@@ -55,7 +55,7 @@ int main(int argc, const char * argv[]) {
         Fraction *f8 = [[Fraction alloc] init];
         f8.numerator = -1;
         f8.denominator = 2;
-        NSLog(@"%@ add %@ is: %@", [f6 convertToString], [f8 convertToString], [[f6 add:f8] convertToString]);
+        NSLog(@"%@ add %@ is: %@", [f8 convertToString], [f6 convertToString], [[f6 add:f8] convertToString]);
         
     }
     return 0;

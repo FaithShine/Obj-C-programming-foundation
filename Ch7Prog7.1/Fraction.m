@@ -84,12 +84,13 @@
 - (Fraction *) add: (Fraction *) f
 {
     int temp = denominator;
-    NSLog(@"%i", temp);
+//    NSLog(@"%@", [self convertToString]);
+//    NSLog(@"%i", temp);
     Fraction *result = [[Fraction alloc] init];
     result.denominator = [Fraction leastCommonMultiple:denominator and:f.denominator];
-    NSLog(@"%i", result.denominator);
-    result.numerator = numerator * denominator / temp + f.numerator * denominator / f.denominator;
-    NSLog(@"%i", [self countAddition]);
+//    NSLog(@"%i", result.denominator);
+    result.numerator = numerator * result.denominator / temp + f.numerator * result.denominator / f.denominator;
+//    NSLog(@"%i", [self countAddition]);
     return result;
 }
 
